@@ -42,4 +42,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ env.REGISTRY }}/${{ github.actor }}/${{ github.repository }}:${{ github.sha }}
+          tags: ${{ env.REGISTRY }}/${{ github.actor }}/my-web-app:${{ github.sha }}
