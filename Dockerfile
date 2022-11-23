@@ -2,5 +2,6 @@ FROM httpd:alpine
 
 MAINTAINER Pranav Dhopey
 
-COPY index.html cloud.jpg /usr/local/apache2/htdocs/
+RUN echo "<strong>This text is important!</strong>" > /usr/local/apache2/htdocs/index.html
+# COPY index.html cloud.jpg /usr/local/apache2/htdocs/
 
